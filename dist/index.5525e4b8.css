@@ -1,0 +1,44 @@
+#app{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.content {
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(12, 184, 232) 56%);
+    scroll-padding-inline-start: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 200px;
+    overflow-x:hidden;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    z-index: 100;
+    padding: 10px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    overflow-y: auto;
+}
+.headerNavbar a{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(167, 167, 153);
+    
+}
+.userImg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+
+
+/*# sourceMappingURL=index.5525e4b8.css.map */
